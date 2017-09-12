@@ -5,6 +5,7 @@ Twitch Bot for Shin in Python 3.4
 ------------------------------- How to use -----------------------------
 
 - Change de data on top to match your bot's account.
+- Replace X,Y & Z by your moderators & admins
 - Launch!
 - You're good to go!
 
