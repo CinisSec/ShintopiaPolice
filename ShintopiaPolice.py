@@ -93,7 +93,7 @@ def parse_message(msg):
             '!critiques': command_CritCounterInfo,
             '!morts'    : command_deathCounter
         }
-        if sender == "shintopiawarrior" or sender == "cd_shin" or sender == "greyaragami":
+        if sender == "X" or sender == "Y" or sender == "Z":
             optionsadmin = {
                 '!critj+'      : command_PCritCounterAdd,
                 '!critj-'      : command_PCritCounterRem,
@@ -150,7 +150,7 @@ def command_purpose():
 
 
 def command_commands():
-    if sender == "shintopiawarrior" or sender == "cd_shin":
+    if sender == "X" or sender == "Y":
         send_message(CHAN,
                      sender + " !highfive, !tonbut, !critiques, !critj+, !critj-, !critjr,, !critcpu+, !critcpu-, !critcpur, !critreset, !m+, !m-, !mr, !morts")
     else:
